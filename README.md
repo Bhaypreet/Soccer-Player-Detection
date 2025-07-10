@@ -11,7 +11,7 @@ soccer-tracking/
 ├── best.pt   (Ultralytics YOLOv11 model)  
 ├── soccer2.mp4      (Input video)  
 ├── clean_output.mp4    (Output video)  
-├── README.md     Setup and usage instructions)  
+├── README.md    s(etup and usage instructions)  
 
 # Model & Tracker Used :
   The YOLOv11 model file (best.pt) is not included in this repo due to GitHub’s 100 MB limit.
