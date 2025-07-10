@@ -7,15 +7,15 @@ This repository contains a complete pipeline for soccer player detection and tra
 ## Folder Structure
 
 soccer-tracking/  
-├── Script.py (python script)  
-├── best.pt   (Ultralytics YOLOv11 model)  
-├── soccer2.mp4      (Input video)  
-├── clean_output.mp4    (Output video)  
-├── README.md    s(etup and usage instructions)  
+├── Script.py          (python script)  
+├── best.pt            (Ultralytics YOLOv11 model)  
+├── soccer2.mp4        (Input video)  
+├── clean_output.mp4   (Output video)  
+├── README.md          (setup and usage instructions)  
 
 # Model & Tracker Used :
-  The YOLOv11 model file (best.pt) is not included in this repo due to GitHub’s 100 MB limit.
-  LINK :-
+  The YOLOv11 model file (best.pt) is not included in this repo due to GitHub’s 100 MB limit.  
+  **LINK** :- https://drive.google.com/file/d/1bUnGZJT5fldKoG4NzmK-goXPa25njrfH/view?usp=drive_link
 
 ##  Setup Instructions
 
@@ -47,14 +47,14 @@ The output video will be saved as clean_output.mp4.
 
 ---
 # Input / Output Videos
-1. Input Link :- https://drive.google.com/file/d/1fAE7oTx5kVz9gSEz4OW5Uoia-3qea9Pl/view?usp=drive_link
-2. Output Link :- https://drive.google.com/file/d/1mwxmjrPR_d2rHUw6S1KXtjcgtY2DdCRT/view?usp=drive_link
+1. **Input Link** :- https://drive.google.com/file/d/1fAE7oTx5kVz9gSEz4OW5Uoia-3qea9Pl/view?usp=drive_link
+2. **Output Link** :- https://drive.google.com/file/d/1mwxmjrPR_d2rHUw6S1KXtjcgtY2DdCRT/view?usp=drive_link
 
 
 
 ## Notes
 
-* The `best.pt` file should detect "player" and "goalkeeper" classes.
+* The best.pt file should detect "player" and "goalkeeper" classes.
 * This version only adds bounding boxes and IDs for tracking.
 * Jersey color classification and team separation are not included in this simplified version.
 
