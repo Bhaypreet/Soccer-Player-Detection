@@ -1,6 +1,6 @@
 # Player Tracking with YOLO and Deep SORT
 
-This repository contains a complete pipeline for soccer player detection and tracking using YOLOv11 and Deep SORT. Players are tracked with consistent IDs across frames. This version uses CPU-only inference and does not include team classification.
+This repository contains a complete pipeline for soccer player detection and tracking using YOLOv11 and Deep SORT. Players are tracked with consistent IDs across frames. This version uses CPU-only inference and does not include team classification.We have not assigned player IDs based on jersey numbers, because this requires Optical Character Recognition (OCR) to read text on jerseys. Accurately detecting and reading jersey numbers is challenging due to low resolution, motion blur, camera angle, and partial occlusion. Instead, Deep SORT provides identity tracking by estimating player trajectories and visual features.
 
 ---
 
